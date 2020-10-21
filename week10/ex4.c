@@ -46,7 +46,6 @@ int main()
 		if(s.st_nlink <= 1)
 			continue;
 
-		//printf("%s: %lu\n", entry->d_name, s.st_nlink);
 		int found = 0;
 		for(int i=0; i<MAX_FILES; i++)
 		{
